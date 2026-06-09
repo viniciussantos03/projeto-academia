@@ -20,22 +20,28 @@
 
 body {
     font-family: var(--font-principal);
+    font-size: 1em;
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
-    line-height: 1.5em;
+    line-height: 1.6em;
 }
 
 header {
+    padding: 0px 20px;
     background-color: var(--cor-acao);
-    padding: 0px 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    height: 40px;
+}
+
+header p {
+    font-size: 0.8em;
 }
 
 header img {
-    width: 50px;
+    width: 30px;
     margin-right: auto;
 }
 
@@ -48,6 +54,13 @@ nav#menu ul {
 nav#menu a {
     text-decoration: none;
     color: var(--cor-texto);
+    padding: 5px;
+    border-radius: 8px;
+    transition: background-color 0.5s;
+}
+
+nav#menu a:hover {
+    background-color: var(--cor-destaque);
 }
 
 nav#menu span.texto {
@@ -71,6 +84,26 @@ main {
     height: 250px;
 }
 
-div.container-planos {
-    
+.container-apresentacao h1 {
+    font-size: 1.6em;
+}
+
+.container-apresentacao p {
+    font-size: 0.9em;
+    max-width: 340px;
+}
+
+.container-planos {
+    background-color: var(--cor-fundo-principal);
+    padding: 0px 20px;
+}
+
+.container-planos h2 {
+    font-size: 1.4em;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.container-planos p {
+    font-size: 0.9em;
 }
