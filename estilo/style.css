@@ -83,7 +83,7 @@ main {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../imagens/introducao.jpg') top center no-repeat;
     background-size: cover;
     height: 250px;
-    padding: 0px 40px;
+    padding: 0px 30px;
 }
 
 .container-apresentacao h1 {
@@ -99,7 +99,7 @@ main {
 
 .container-planos {
     background-color: var(--cor-fundo-principal);
-    padding: 0px 40px;
+    padding: 0px 30px;
 }
 
 .container-planos h2 {
@@ -120,7 +120,7 @@ main {
 
 .cards-planos .precos {
     background-color: var(--cor-acao);
-    margin: 35px 20px;
+    margin: 35px 0px;
     padding: 20px;
     min-height: 430px;
     border-radius: 20px;
