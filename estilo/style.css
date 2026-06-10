@@ -4,8 +4,9 @@
     --cor-fundo: #0F0F0F;
     --cor-fundo-principal: #101010;
     --cor-gradiente: #1A1A1A;
-    --cor-titulos: #F4F5F0;
-    --cor-texto: #F2F0EB;
+    --cor-titulos: #E7E9E7;
+    --cor-texto: #F0EEE9;
+    --cor-hover: #D0D0DA;
     --cor-destaque: #D61200;
     --cor-acao: #8d0801;
 
@@ -27,7 +28,7 @@ body {
 }
 
 header {
-    padding: 0px 20px;
+    padding: 0px 30px;
     background-color: var(--cor-acao);
     display: flex;
     flex-direction: row;
@@ -70,7 +71,7 @@ nav#menu span.texto {
 main {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 25px;
 }
 
 .container-apresentacao {
@@ -85,7 +86,9 @@ main {
 }
 
 .container-apresentacao h1 {
+    color: var(--cor-titulos);
     font-size: 1.6em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.349);
 }
 
 .container-apresentacao p {
@@ -95,15 +98,83 @@ main {
 
 .container-planos {
     background-color: var(--cor-fundo-principal);
-    padding: 0px 20px;
+    padding: 0px 40px;
 }
 
 .container-planos h2 {
+    color: var(--cor-titulos);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.349);
     font-size: 1.4em;
     text-align: center;
-    padding: 20px 0px;
+    padding: 25px 0px;
 }
 
 .container-planos p {
     font-size: 0.9em;
+}
+
+.cards-planos {
+    text-align: center;
+}
+
+.cards-planos .precos {
+    background-color: var(--cor-acao);
+    margin: 35px 30px;
+    padding: 20px;
+    min-height: 430px;
+    border-radius: 20px;
+    transition: background-color 0.5s, transform 0.5s;
+}
+
+.cards-planos h3, .cards-planos p {
+    margin-top: 25px;
+}
+
+.cards-planos h3 {
+    color: var(--cor-titulos);
+    font-size: 1.8em;
+}
+
+.cards-planos p.maior {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.cards-planos p.destaque {
+    font-size: 1.6em;
+    font-weight: bold;
+    color: var(--cor-titulos);
+}
+
+.cards-planos a {
+    display: block;
+    color: var(--cor-texto);
+    text-decoration: none;
+    margin: 20px 80px;
+    border-radius: 8px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.cards-planos a:hover {
+    color: var(--cor-destaque);
+    background-color: var(--cor-hover);
+}
+
+.cards-planos .precos:hover {
+    transform: translate(0px, -2px);
+}
+
+.avisos {
+    background-color: #1A1A1A;
+    padding: 20px;
+    border-radius: 20px;
+    line-height: 1.8em;
+}
+
+.avisos h3 {
+    color: var(--cor-texto);
+}
+
+.avisos p {
+    margin-top: 20px;
 }
