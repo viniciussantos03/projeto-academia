@@ -175,9 +175,11 @@ main {
 }
 
 .avisos h3 {
+    font-size: 1.1em;
     color: var(--cor-texto);
 }
 
 .avisos p {
     margin-top: 20px;
+    font-size: 0.9em;
 }
