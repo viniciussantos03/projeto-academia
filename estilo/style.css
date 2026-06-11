@@ -35,6 +35,9 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 40px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 header p {
@@ -89,7 +92,6 @@ main {
 .container-apresentacao h1 {
     color: var(--cor-titulos);
     font-size: 1.6em;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.349);
 }
 
 .container-apresentacao p {
@@ -98,16 +100,18 @@ main {
 }
 
 .container-planos {
+    max-width: 1200px;
+    margin: auto;
+    border-radius: 10px;
     background-color: var(--cor-fundo-principal);
-    padding: 0px 30px;
+    padding: 30px;
 }
 
 .container-planos h2 {
     color: var(--cor-titulos);
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.349);
     font-size: 1.4em;
     text-align: center;
-    padding: 25px 0px;
+    margin-bottom: 25px;
 }
 
 .container-planos p {
@@ -116,6 +120,8 @@ main {
 
 .cards-planos {
     text-align: center;
+    max-width: 300px;
+    margin: auto;
 }
 
 .cards-planos .precos {
@@ -183,4 +189,23 @@ main {
 .avisos p {
     margin-top: 20px;
     font-size: 0.9em;
+}
+
+.container-conheca {
+    background-color: var(--cor-fundo-principal);
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 1200px;
+}
+
+.container-conheca h2 {
+    color: var(--cor-titulos);
+    font-size: 1.4em;
+    margin: 25px 0px;
+}
+
+.container-conheca p {
+    font-size: 0.9em;
+    line-height: 1.8em;
 }
