@@ -209,3 +209,72 @@ main {
     font-size: 0.9em;
     line-height: 1.8em;
 }
+
+.container-diferencas {
+    background-color: #101010;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 1200px;
+}
+
+.container-diferencas h2 {
+    color: var(--cor-titulos);
+    font-size: 1.4em;
+    margin: 25px 0px;
+}
+
+.container-diferencas ul {
+    padding: 20px;
+}
+
+.container-diferencas > ul > li {
+    font-size: 0.9em;
+    padding: 10px 0px;
+}
+
+.container-diferencas p {
+    font-size: 0.9em;
+    line-height: 1.8em;
+    padding-bottom: 20px;
+}
+
+.cards-profissionais {
+    max-width: 400px;
+    margin: auto;
+}
+
+.cards-profissionais .profissionais {
+    background-color: #8d0801;
+    margin: 35px 0px;
+    min-height: 600px;
+    border-radius: 20px;
+    transition: transform 0.5s;
+}
+
+.cards-profissionais .profissionais:hover {
+    transform: translate(0px, -2px);
+}
+
+.profissionais img {
+    border-radius: 20px 20px 0px 0px;
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profissionais h3, .cards-profissionais p {
+    margin-top: 15px;
+}
+
+.cards-profissionais h3 {
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.cards-profissionais p {
+    font-size: 0.9em;
+    line-height: 1.8em;
+    padding-left: 20px;
+}
