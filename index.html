@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alpha Fitness</title>
     <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/media.css" media="screen">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/278760cac2.js" crossorigin="anonymous"></script>
 </head>
@@ -62,15 +63,13 @@
                     </div>
                 </div>
                 
-                <div class="avisos">
-                    <h3>⚠️ Avisos Importantes</h3>
-                    <p>Menores de Idade: Menores de 18 anos devem realizar a inscrição presencialmente na recepção, acompanhados por um dos pais ou responsável legal portando documento com foto.
-                    </p>
-
-                    <p>Avaliação Médica Obrigatória: Para a sua segurança, a apresentação de um atestado médico de aptidão física atualizado é obrigatória no primeiro dia de treino ou em até 30 dias após a matrícula.</p>
-
-                    <p>Regras de Cancelamento e Trancamento: O plano mensal pode ser cancelado a qualquer momento sem multa. Já o plano anual oferece desconto exclusivo devido à fidelidade; o cancelamento antecipado está sujeito às taxas previstas em contrato.</p>
-                </div>
+                    <div id="avisos" class="avisos">
+                        <h3>⚠️ Avisos Importantes</h3>
+                        <p>Menores de Idade: Menores de 18 anos devem realizar a inscrição presencialmente na recepção, acompanhados por um dos pais ou responsável legal portando documento com foto.
+                        </p>
+                        <p>Avaliação Médica Obrigatória: Para a sua segurança, a apresentação de um atestado médico de aptidão física atualizado é obrigatória no primeiro dia de treino ou em até 30 dias após a matrícula.</p>
+                        <p>Regras de Cancelamento e Trancamento: O plano mensal pode ser cancelado a qualquer momento sem multa. Já o plano anual oferece desconto exclusivo devido à fidelidade; o cancelamento antecipado está sujeito às taxas previstas em contrato.</p>
+                    </div>
             </div>
         </section>
 
@@ -130,17 +129,8 @@
 
                 <div class="foto">
                     <img src="imagens/alpha.jpg" alt="Equipamentos de peito">
-                </div>
-
-                <div class="foto">
                     <img src="imagens/alpha-1.jpg" alt="Equipamentos de costas">
-                </div>
-
-                <div class="foto">
                     <img src="imagens/alpha-2.jpg" alt="Equipamentos de perna">
-                </div>
-
-                <div class="foto">
                     <img src="imagens/alpha-3.png" alt="Mais equipamentos da academia">
                 </div>
             </div>
@@ -148,60 +138,57 @@
     </main>
 
     <footer>
-        <div class="container-informacoes">
-            <h2>Central de Informações</h2>
-
-            <div class="funcionamento">
-                <h3>Funcionamento</h3>
-                <p>Horários:</p>
-                <ul>
-                    <li>Segunda à sexta: 05h às 23h</li>
-                    <li>Sábado: 07h às 15h</li>
-                    <li>Domingo: 08h às 13h</li>
-                    <li>Feriados: fechado</li>
-                </ul>
+        <section id="informacoes">
+            <div class="container-informacoes">
+                <h2>Central de Informações</h2>
+                <div class="funcionamento">
+                    <h3>Funcionamento</h3>
+                    <p>Horários:</p>
+                    <ul>
+                        <li>Segunda à sexta: 05h às 23h</li>
+                        <li>Sábado: 07h às 15h</li>
+                        <li>Domingo: 08h às 13h</li>
+                        <li>Feriados: fechado</li>
+                    </ul>
+                </div>
+                <div class="contato">
+                    <h3>Contato</h3>
+                    <p>Fale conosco:</p>
+                    <ul>
+                        <li>WhatsApp: <a href="https://wa.me/5538123456789" target="_blank" rel="external">(38) 12345-6789</a></li>
+                        <li>Contato: <a href="mailto:alphafitness@gmail.com">alphafitness@gmail.com</a></li>
+                        <li>
+                            Endereço:
+                            <address>
+                                <a href="#">
+                                    Av. Principal, 1234 - Centro
+                                </a>
+                            </address>
+                        </li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <h3>Links Úteis</h3>
+                    <p>Navegação:</p>
+                    <ul>
+                        <li><a href="#">Voltar ao Topo</a></li>
+                        <li><a href="#planos">Nossos Planos</a></li>
+                        <li><a href="#avisos">Regulamentos</a></li>
+                    </ul>
+                </div>
+                <div class="social">
+                    <h3>Siga a Gente</h3>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-solid fa-x"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2026 Alpha Fitness. Todos os direitos reservados. Desenvolvido por <a href="https://github.com/viniciussantos03" target="_blank" rel="external">Vinicius Santos</a>.</p>
+                </div>
             </div>
-
-            <div class="contato">
-                <h3>Contato</h3>
-                <p>Fale conosco:</p>
-                <ul>
-                    <li>WhatsApp: <a href="https://wa.me/5538123456789" target="_blank" rel="external">(38) 12345-6789</a></li>
-                    <li>Contato: <a href="mailto:alphafitness@gmail.com">alphafitness@gmail.com</a></li>
-                    <li>
-                        Endereço:
-                        <address>
-                            <a href="#">
-                                Av. Principal, 1234 - Centro
-                            </a>
-                        </address>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="links">
-                <h3>Links Úteis</h3>
-                <p>Navegação:</p>
-                <ul>
-                    <li><a href="#">Voltar ao Topo</a></li>
-                    <li><a href="#">Nossos Planos</a></li>
-                    <li><a href="#">Regulamentos</a></li>
-                </ul>
-            </div>
-
-            <div class="social">
-                <h3>Siga a Gente</h3>
-                <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-solid fa-x"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-            </div>
-
-            <div class="copyright">
-                <p>&copy; 2026 Alpha Fitness. Todos os direitos reservados. Desenvolvido por <a href="https://github.com/viniciussantos03">Vinicius Santos</a>.</p>
-            </div>
-        </div>
+        </section>
     </footer>
 </body>
 </html>
