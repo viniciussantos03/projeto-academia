@@ -56,7 +56,7 @@ header {
     height: 40px;
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 3;
 }
 
 header p {
@@ -229,11 +229,16 @@ main {
 
 .container-diferencas ul {
     padding: 20px;
+    list-style-type: none;
 }
 
 .container-diferencas > ul > li {
     font-size: 0.9em;
     padding: 10px 0px;
+}
+
+.container-diferencas li {
+    margin-bottom: 30px;
 }
 
 .container-diferencas p {
@@ -284,14 +289,14 @@ main {
     margin: auto;
     padding: 30px;
     border-radius: 10px;
-    max-width: 1200px;
+    max-width: 1500px;
 }
 
 .container-imagens h2 {
     margin: 25px 0px;
 }
 
-.container-imagens > .foto > img {
+.container-imagens > .fotos > img {
     display: block;
     margin: auto;
     margin-bottom: 40px;
@@ -301,11 +306,11 @@ main {
     transition: transform 0.5s;
 }
 
-.container-imagens > .foto > img:hover {
+.container-imagens > .fotos > img:hover {
     transform: translate(0px, -2px);
 }
 
-.container-informacoes {
+#informacoes {
     background-color: var(--cor-acao);
     text-align: center;
     padding: 25px 0px;
@@ -326,6 +331,7 @@ main {
 
 .container-informacoes li {
     margin-top: 10px;
+    list-style-type: none;
 }
 
 .container-informacoes li address {
@@ -374,4 +380,3 @@ main {
 .container-informacoes .social svg {
     font-size: 1.8em;
 }
-

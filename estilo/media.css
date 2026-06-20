@@ -1,0 +1,536 @@
+@media screen and (min-width: 768px) and (max-width: 877px) {
+    #icone {
+        display: none;
+    }
+
+    nav#menu span.texto {
+        display: inline;
+        padding: 0px 5px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    header p {
+        font-size:1em;
+    }
+
+    header img {
+        width: 44px;
+    }
+
+    .container-apresentacao {
+        height: 350px;
+    }
+
+    .container-apresentacao h1 {
+        font-size: 1.8em;
+    }
+
+    .cards-planos {
+        display: grid;
+        gap: 50px;
+        grid-template-columns: 300px 300px;
+        justify-content: center;
+    }
+
+    .container-conheca {
+        display: grid;
+        position: relative;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .sobre {
+        z-index: 2;
+    }
+
+    .imagem-destaque {
+        position: absolute;
+        right: 0;
+        top: 0;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0,0,0,0.05)), url('../imagens/agachamento.jpg') no-repeat right center;
+        background-size: cover;
+        width: 425px;
+        height: 100%;
+        border-radius: 20px 20px 0px 20px;
+        z-index: 1;
+    }
+
+    .fotos {
+        display: grid;
+        grid-template-columns: 300px 300px;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .container-informacoes {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 0px 20px;
+        gap: 60px;
+    }
+
+    .container-informacoes h2 {
+        grid-column: 1 / 4;
+    }
+
+    .container-informacoes > div > ul > li > a, .copyright a {
+        text-decoration: none;
+    }
+
+    .container-informacoes li address a {
+        text-decoration: none;
+    }
+
+    .social {
+        grid-column: 2 / 3;
+    }
+
+    .copyright {
+        grid-column: 1 / 4;
+    }
+}
+
+@media screen and (min-width: 878px) and (max-width: 952px) {
+    #icone {
+        display: none;
+    }
+
+    nav#menu span.texto {
+        display: inline;
+        padding: 0px 5px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    header p {
+        font-size:1em;
+    }
+
+    header img {
+        width: 44px;
+    }
+
+    .container-apresentacao {
+        height: 350px;
+    }
+
+    .container-apresentacao h1 {
+        font-size: 1.8em;
+    }
+
+    .cards-planos {
+        display: grid;
+        gap: 50px;
+        grid-template-columns: 300px 300px;
+        justify-content: center;
+    }
+
+    .container-conheca {
+        display: grid;
+        position: relative;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .sobre {
+        z-index: 2;
+    }
+
+    .imagem-destaque {
+        position: absolute;
+        right: 0;
+        top: 0;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0,0,0,0.05)), url('../imagens/agachamento.jpg') no-repeat right center;
+        background-size: cover;
+        width: 520px;
+        height: 100%;
+        border-radius: 20px 20px 0px 20px;
+        z-index: 1;
+    }
+
+    .fotos {
+        display: grid;
+        grid-template-columns: 300px 300px;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .container-informacoes {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 0px 20px;
+        gap: 60px;
+    }
+
+    .container-informacoes h2 {
+        grid-column: 1 / 4;
+    }
+
+    .container-informacoes > div > ul > li > a, .copyright a {
+        text-decoration: none;
+    }
+
+    .container-informacoes li address a {
+        text-decoration: none;
+    }
+
+    .social {
+        grid-column: 2 / 3;
+    }
+
+    .copyright {
+        grid-column: 1 / 4;
+    }
+}
+
+@media screen and (min-width: 953px) and (max-width: 1139px) {
+    #icone {
+        display: none;
+    }
+
+    nav#menu span.texto {
+        display: inline;
+        padding: 0px 5px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    header p {
+        font-size:1em;
+    }
+
+    header img {
+        width: 44px;
+    }
+
+    .container-apresentacao {
+        height: 350px;
+    }
+
+    .container-apresentacao h1 {
+        font-size: 1.8em;
+    }
+
+    .cards-planos {
+        display: grid;
+        gap: 50px;
+        grid-template-columns: 300px 300px;
+        justify-content: center;
+    }
+
+    .container-conheca {
+        display: grid;
+        position: relative;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .sobre {
+        z-index: 2;
+    }
+
+    .imagem-destaque {
+        position: absolute;
+        right: 0;
+        top: 0;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0,0,0,0.05)), url('../imagens/agachamento.jpg') no-repeat right center;
+        background-size: cover;
+        width: 600px;
+        height: 100%;
+        border-radius: 20px 20px 0px 20px;
+        z-index: 1;
+    }
+
+    .fotos {
+        display: grid;
+        grid-template-columns: 300px 300px;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .container-informacoes {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 0px 20px;
+        gap: 60px;
+    }
+
+    .container-informacoes h2 {
+        grid-column: 1 / 4;
+    }
+
+    .container-informacoes > div > ul > li > a, .copyright a {
+        text-decoration: none;
+    }
+
+    .container-informacoes li address a {
+        text-decoration: none;
+    }
+
+    .social {
+        grid-column: 2 / 3;
+    }
+
+    .copyright {
+        grid-column: 1 / 4;
+    }
+}
+
+@media screen and (min-width: 1139px) and (max-width: 1400px) {
+    #icone {
+        display: none;
+    }
+
+    nav#menu span.texto {
+        display: inline;
+        padding: 0px 5px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    header p {
+        font-size:1em;
+    }
+
+    header img {
+        width: 44px;
+    }
+
+    .container-apresentacao {
+        height: 350px;
+    }
+
+    .container-apresentacao h1 {
+        font-size: 1.8em;
+    }
+
+    .cards-planos {
+        display: grid;
+        gap: 50px;
+        grid-template-columns: 300px 300px;
+        justify-content: center;
+    }
+
+    .container-conheca {
+        display: grid;
+        position: relative;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .sobre {
+        z-index: 2;
+    }
+
+    .imagem-destaque {
+        position: absolute;
+        right: 0;
+        top: 0;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0,0,0,0.05)), url('../imagens/agachamento.jpg') no-repeat right center;
+        background-size: cover;
+        width: 750px;
+        height: 100%;
+        border-radius: 20px 20px 0px 20px;
+        z-index: 1;
+    }
+
+    .fotos {
+        display: grid;
+        grid-template-columns: 300px 300px;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .container-informacoes {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 0px 20px;
+        gap: 25px;
+    }
+
+    .container-informacoes h2 {
+        grid-column: 1 / 4;
+    }
+
+    .container-informacoes > div > ul > li > a, .copyright a {
+        text-decoration: none;
+    }
+
+    .container-informacoes li address a {
+        text-decoration: none;
+    }
+
+    .social {
+        grid-column: 3 / 4;
+    }
+
+    .copyright {
+        grid-column: 1 / 4;
+    }
+}
+
+@media screen and (min-width: 1401px) {
+    #icone {
+        display: none;
+    }
+
+    nav#menu span.texto {
+        display: inline;
+        padding: 0px 5px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    header p {
+        font-size:1em;
+    }
+
+    header img {
+        width: 44px;
+    }
+
+    .container-apresentacao {
+        height: 500px;
+        background-attachment: fixed;
+    }
+
+    .container-apresentacao h1 {
+        font-size: 1.8em;
+    }
+
+    .container-planos {
+        max-width: 1500px;
+    }
+
+    .cards-planos {
+        display: grid;
+        gap: 50px;
+        grid-template-columns: 300px 300px;
+        justify-content: center;
+    }
+
+    .container-conheca {
+        display: grid;
+        position: relative;
+        grid-template-columns: 1fr 1fr;
+        max-width: 1500px;
+    }
+
+    .sobre {
+        z-index: 2;
+    }
+
+    .imagem-destaque {
+        position: absolute;
+        right: 0;
+        top: 0;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0,0,0,0.05)), url('../imagens/agachamento.jpg') no-repeat right center;
+        background-size: cover;
+        width: 900px;
+        height: 100%;
+        border-radius: 20px 20px 0px 20px;
+        z-index: 1;
+    }
+
+    .container-diferencas {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 1500px;
+    }
+
+    .cards-profissionais {
+        display: grid; 
+        grid-template-columns: 200px 200px 200px;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .cards-profissionais h3, .cards-profissionais p {
+        margin: 10px;
+    }
+    
+    .cards-profissionais .profissionais {
+        height: 520px;
+    }
+
+    .fotos {
+        display: grid;
+        grid-template-columns: 300px 300px 300px 300px;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .container-informacoes {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 0px 20px;
+        gap: 20px;
+    }
+
+    .container-informacoes h2 {
+        grid-column: 1 / 4;
+    }
+
+    .container-informacoes > div > ul > li > a, .copyright a {
+        text-decoration: none;
+    }
+
+    .container-informacoes li address a {
+        text-decoration: none;
+    }
+
+    .social {
+        grid-column: 3 / 4;
+    }
+
+    .copyright {
+        grid-column: 1 / 4;
+    }
+}
