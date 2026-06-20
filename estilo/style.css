@@ -17,6 +17,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    transition: width 0.5s, height 0.5s;
 }
 
 body {
@@ -130,6 +131,10 @@ main {
     margin-bottom: 25px;
 }
 
+.container-planos p.centro {
+    text-align: center;
+}
+
 .cards-planos {
     text-align: center;
     width: 300px;
@@ -187,11 +192,13 @@ main {
 }
 
 .avisos {
+    margin: auto;
     margin-top: 50px;
     background-color: var(--cor-gradiente);
     padding: 20px;
     border-radius: 20px;
     line-height: 1.8em;
+    max-width: 1200px;
 }
 
 .avisos p {
@@ -229,7 +236,6 @@ main {
 
 .container-diferencas ul {
     padding: 20px;
-    list-style-type: none;
 }
 
 .container-diferencas > ul > li {
@@ -238,7 +244,7 @@ main {
 }
 
 .container-diferencas li {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .container-diferencas p {
@@ -379,4 +385,8 @@ main {
 
 .container-informacoes .social svg {
     font-size: 1.8em;
+}
+
+img.esquerda, img.direita {
+    display: none;
 }
