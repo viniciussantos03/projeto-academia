@@ -98,6 +98,10 @@
     .copyright {
         grid-column: 1 / 4;
     }
+
+    ul {
+        font-size: 1em;
+    }
 }
 
 @media screen and (min-width: 1139px) and (max-width: 1400px) {
@@ -199,6 +203,10 @@
 
     .copyright {
         grid-column: 1 / 4;
+    }
+
+    ul {
+        font-size: 1em;
     }
 }
 
@@ -339,5 +347,9 @@
 
     .copyright {
         grid-column: 1 / 4;
+    }
+
+    ul {
+        font-size: 1.1em;
     }
 }

@@ -47,6 +47,10 @@ p {
     margin: 0px;
 }
 
+ul {
+    font-size: 0.9em;
+}
+
 header {
     padding: 0px 30px;
     background-color: var(--cor-acao);
